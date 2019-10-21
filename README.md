@@ -42,7 +42,7 @@
 ----
 PC review 
 ---
-<img src = "https://github.com/Ellie-Y/Website-Cousework/blob/master/PC-sample.gif" width="400px" />
+<img src = "https://github.com/Ellie-Y/Website-Cousework/blob/master/PC-sample.gif" width="500px" />
 
 Mobile review
 ---
