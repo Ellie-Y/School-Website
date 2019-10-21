@@ -1,0 +1,40 @@
+.headerArea .dropBtn {
+    float: right;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.headerArea .dropBtn span {
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 5px auto;
+}
+
+.headerArea .navBar {
+    display: none;
+}
+
+.content .course:nth-child(even) {
+    flex-direction: column-reverse;
+}
+
+.course .imgSection {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/* cancel the scale effect in mobile use */
+.course .imgSection img:hover {
+    transform: scale(1);
+}
+
+.course .courseDesc {
+    width: auto;
+}
+
+footer .footerNav {
+    flex-direction: column;
+}

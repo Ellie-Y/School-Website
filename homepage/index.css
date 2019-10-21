@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Quattrocento', serif;
+    color: #3d3d3d;
+    outline: none;
+}
+
+:root, body {
+    /* width&height:100% allow other elements also based on it*/
+    width: 100%;
+    height: 100%;
+}
+
+.firstPage {
+    /* full screen height and width */
+    width: 100%;
+    height: 100%;
+    /* position for slogan */
+    position: relative;
+    /* J. Feskens. "Graduates illustration" dribbble.com.
+    https://dribbble.com/shots/4952645-Graduates-illustration
+    (accessed Oct. 20, 2019)*/
+    background-image: url(../source/images/homepage/background.png);
+    background-size: 100% 100%;
+}
+
+.firstPage .innerheader {
+    width: 100%;
+    height: 100px;
+}
+
+.dropBtn {
+    display: none;
+}
+
+.uniLogo {
+    width: auto;
+    max-width: 1200px;
+    height: auto;
+    margin: 2% 10% 0 8%;
+    float: left;
+}
+
+.uniLogo p {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0 3px;
+    margin-bottom: 4px;
+}
+
+/* header right side navigator */
+.innerheader .nav {
+    width: auto;
+    height: auto;
+    float: right;
+    margin: 10px 60px 10px 0px;
+}
+
+.innerheader .nav li {
+    float: left;
+    padding: 30px;
+}
+
+.innerheader .nav li a {
+    color: #fff;
+    font-size: 1.29rem;
+    font-weight: bold;
+}
+
+.innerheader .nav li a:hover {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+    border-bottom: 2px solid #fff;
+}
+
+.firstPage .slogan {
+    width: auto;
+    height: auto;
+    /* position by first screen */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.firstPage .slogan img{
+    width: 800px;
+    /* responsive size img*/
+    max-width: 100%;
+}
+
+.secondPage {
+    width: 100%;
+    height: 100%;
+}
+
+.secondPage .midContent {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+.secondPage .midContent .research,
+.secondPage .midContent .study
+ {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* each sections placed equally */
+    flex: 1;
+    margin-top: 30px;
+}
+
+.midContent .study {
+    border-right: 1px solid #bdbdbd;
+    padding: 50px 10px 0;
+}
+
+.study .studyTitle {
+    display: inline-block;
+    position: absolute;
+    left: 2%;
+    top: 0;
+}
+
+.study .studyTitle p:first-child{
+    font-size: 1.27rem;
+    color: #9a55b2;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.study .studyTitle p {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.secondPage .findMore {
+    width: auto;
+    height: auto;
+    /* Relative to own position */
+    position: relative;
+    right: -30%;
+    margin-bottom: 5%;
+}
+
+.secondPage .findMore p a {
+    color: #9a55b2;
+    font-weight: bold;
+    font-size: 1.24rem;
+    transition: linear .1s;
+}
+
+/* Arrow symbol */
+.secondPage .findMore p a::after {
+    content: "";
+    display: block;
+    /* Based on find more text targeting */
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 11px;
+    height: 11px;
+    margin: -7px -12px;
+    /* only display two lines, transform to arrow */
+    border-top: solid 1px #3e3e3e;
+    border-right: solid 1px #3e3e3e;
+    transform: rotate(45deg);
+}
+
+.findMore p a:hover {
+    border-bottom: 2px solid #9a55b2;
+}
+
+.midContent .research img,
+.midContent .study img {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.midContent .study button {
+    width: auto;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, #A993FF, #9a55b2);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10%;
+}
+
+.midContent .research .resTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.research .resSubtitle {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* quote are */
+.secondPage .quoteArea {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15%;
+    width: 100%;
+    height: 20%;
+    background-image: linear-gradient(to right, #ad7fbd, #a993ff);
+}
+
+.secondPage .quoteArea .quote {
+    color: #fff;
+    font-size: 1.27rem;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.secondPage .quoteArea .student {
+    text-align: right;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.quoteArea .studentImg img {
+    width: 200px;
+    max-width: 100%;
+    box-shadow: 1px 2px 15px #787878;
+}
+
+/* third screen */
+
+.thirdPage {
+    /* Position the footer */
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.thirdPage .news {
+    margin: 1.67rem 0 1.27rem 1.67rem;
+}
+
+.thirdPage .news p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.thirdPage .newsContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* Border-box makes the padding as part of the box */
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+
+.newsContent .newsBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* separate three equal parts */
+    max-width: 33.3%;
+    border: 1px solid rgb(215, 208, 165);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+.newsContent .newsTitle {
+    color: #b38e3e;
+    font-weight: bold;
+    font-size: 1.24rem;
+    margin-bottom: 5px;
+    margin: 16px 0;
+}
+
+.newsContent i {
+    font-size: 1.29rem;
+    color: rgb(94, 94, 94);
+    margin-top: 20px;
+}
+
+
+/* footer */
+
+.thirdPage footer {
+    /* postion to page bottom */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #2b1334;
+}
+
+footer .footerNav {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footerNav a {
+    margin: 5px 30px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+footer .footerLogo {
+    position: absolute;
+    right: 2%;
+    bottom: 20%;
+}
+
+footer .footerLogo  .uniLogo.small{
+    margin: 0;
+}
+
+footer .footerLogo .uniLogo.small p{
+    font-size: .8rem;
+    margin: 1px;
+}

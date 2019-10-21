@@ -1,0 +1,119 @@
+.firstPage {
+    width: 100vw;
+    height: 40%;
+    background-size: 130%;
+    background-repeat: no-repeat;
+
+}
+.firstPage .innerheader {
+    height: 20%;
+    position: relative;
+}
+
+.firstPage .innerheader .uniLogo {
+    margin: 0 0 0 2%;
+}
+
+.firstPage .innerheader .uniLogo p{
+    font-size: .7rem;
+    margin: 0;
+    padding: 1px;
+}
+
+.innerheader .dropBtn {
+    display: block;
+    position: absolute;
+    width: 40px;
+    right: 5%;
+    margin: 0;
+    /* calc implement vertical centering */
+    top: calc(50% - 20px);
+}
+
+.innerheader .dropBtn span {
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 5px auto;
+}
+
+.firstPage .innerheader .nav{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+    border-radius: 10px;
+    padding-top: 10%;
+    display: none;
+}
+
+
+.innerheader .nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.innerheader .nav li a {
+    font-size: .8rem;
+    color: #714f83;
+}
+
+
+.firstPage .slogan img{
+    max-width: 130%;
+    margin-top: 20%;
+}
+
+.secondPage {
+    height: 1000px;
+}
+
+.secondPage img{
+    width: 60%;
+}
+
+.secondPage .midContent .research {
+    margin-top: 20%;
+}
+
+.secondPage .research .desc p{
+    text-align: center;
+}
+
+.secondPage .research .resTitle{
+    font-size: 1rem;
+}
+
+.secondPage .resTitle p {
+    display: inline-block;
+    font-size: 0.3rem;
+}
+
+.secondPage .quoteArea {
+    height: 15%;
+}
+
+.quoteArea .quoteSentence {
+    margin: 0 10px;
+}
+
+.secondPage .quoteArea .quoteSentence p {
+    font-size: 0.5rem;
+}
+
+.thirdPage {
+    height: 1100px;
+}
+
+.newsContent .newsBox {
+    max-width: 100%;
+}
+
+.thirdPage footer {
+    /* Prevent news content being blocked */
+    bottom: -20%;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PontyBridge University</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 400px)">
+    <link rel="stylesheet" href="ipad.css" media="screen and (max-width: 1024px)">
+    <script src="https://kit.fontawesome.com/83960102e9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="firstPage">
+            <header class="innerheader">
+                <div class="uniLogo">
+                    <p>University</p><br>
+                    <p>of</p><br>
+                    <p>PontyBridge</p>
+                </div>
+                <!-- mobile nav -->
+                <div class="dropBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- PC nav, blocked under mobile use -->
+                <ul class="nav" id="activeNav">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#News">News</a></li>
+                    <li><a href="#Study">Study</a></li>
+                    <li><a href="#Research">Research</a></li>
+                </ul>
+            </header>
+            <!-- slogan area -->
+            <div class="slogan">
+                <img src="../source/images/homepage/slogan.png" alt="University Slogan">
+            </div>
+    </div>
+
+    <!-- second screen -->
+    <!-- Anchor point-->
+    <div class="secondPage" id="Study">
+        <div class="midContent">
+            <div class="study">
+                <div class="studyTitle">
+                    <p>Pushing the Boundaries of Higher Education </p>
+                    <p>We teach many students each year, <br> and almost all of them achieve some level of qualification</p>
+                </div>
+                <div class="img">
+                    <!-- I. Kozak. "Education Platform illustrations" dribbble.com.
+                        https://dribbble.com/shots/7053462-Graduates-illustration
+                        (accessed Oct.18,2019) -->
+                    <img src="../source/images/homepage/study.png" alt="study area photo">
+                </div>
+                <div class="button">
+                    <button class="studyButton" type="button" name="button">Study with PontyBridge</button>
+                </div>
+            </div>
+
+            <div class="research" id="Research">
+                <div class="findMore">
+                    <p><a href="../researchPage/index.html">Find More</a></p>
+                </div>
+                <div class="img">
+                    <!-- I. Kozak. "Education Platform illustrations" dribbble.com.
+                        https://dribbble.com/shots/7053462-Graduates-illustration
+                        (accessed Oct.18,2019) -->
+                    <img src="../source/images/homepage/research.png" alt="research area photo">
+                </div>
+                <div class="desc">
+                    <p class="resTitle">Research where it matters almost</p>
+                    <p class="resSubtitle">With over 1 breakthrough each year, <br> our estimate is that we'll have a nobel prize sometime in 2345</p>
+                </div>
+            </div>
+
+            <div class="quoteArea">
+                <div class="quoteSentence">
+                    <p class="quote">I look back on my time here fondly as a time when I could afford to buy things.</p>
+                    <p class="student">-- Evelyn. Q. Dot, class of 2018</p>
+                </div>
+                <div class="studentImg">
+                    <!-- I. Kozak. "Education Platform illustrations" dribbble.com.
+                        https://dribbble.com/shots/7053462-Graduates-illustration
+                        (accessed Oct.18,2019) -->
+                    <img src="../source/images/homepage/stuQuote.png" alt="student photo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="thirdPage" id="News">
+        <div class="news">
+            <p>Our News</p>
+        </div>
+        <div class="newsContent">
+            <div class="newsBox new1">
+                <p class="newsTitle">Graduation Success</p>
+                <p class="content">Another bumper year of graduates head out into the world.</p>
+                <i class="fas fa-bullhorn"></i>
+            </div>
+            <div class="newsBox new2">
+                <p class="newsTitle">Victory at inter-university games</p>
+                <p class="content">Once again the University has triumphed at the inter-university games.</p>
+                <i class="fas fa-dice"></i>
+            </div>
+            <div class="newsBox new3">
+                <p class="newsTitle">Staff rewarded</p>
+                <p class="content">Excellent Web Apps lecturer rewarded with luxury villa.</p>
+                <i class="fas fa-award"></i>
+            </div>
+            <div class="newsBox new1">
+                <p class="newsTitle">Graduation Success</p>
+                <p class="content">Another bumper year of graduates head out into the world.</p>
+                <i class="fas fa-bullhorn"></i>
+            </div>
+            <div class="newsBox new2">
+                <p class="newsTitle">Victory at inter-university games</p>
+                <p class="content">Once again the University has triumphed at the inter-university games.</p>
+                <i class="fas fa-dice"></i>
+            </div>
+            <div class="newsBox new3">
+                <p class="newsTitle">Staff rewarded</p>
+                <p class="content">Excellent Web Apps lecturer rewarded with luxury villa.</p>
+                <i class="fas fa-award"></i>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footerNav">
+                <a href="">About</a>
+                <a href="">Research</a>
+                <a href="">Study</a>
+            </div>
+            <div class="footerLogo">
+                <!-- 同样的结构，再添加选择器来修改额外的样式 -->
+                <div class="uniLogo small">
+                    <p>University</p><br>
+                    <p>of</p><br>
+                    <p>PontyBridge</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

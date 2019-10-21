@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Quattrocento', serif;
+    color: #3d3d3d;
+    text-decoration: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+:root, body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    /* leave the space for footer */
+    margin-bottom: -100px;
+}
+
+/* materialize the place for footer */
+.wrapper::after {
+    content: "";
+    display: block;
+}
+
+footer, .wrapper::after {
+    height: 100px;
+    /* leave 5% gap between content and footer */
+    margin-top: 5%;
+}
+
+.headerArea {
+    height: 10%;
+    background-color: #897391;
+}
+
+.headerArea .innerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.headerArea .uniLogo {
+    width: 120px;
+    float: left;
+    margin-left: 5%;
+}
+
+.innerContent .navBar {
+    float: right;
+}
+
+.innerContent .navBar li {
+    float: left;
+    margin: 20px;
+}
+
+.innerContent .navBar li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.innerContent .navBar li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.studyShow {
+    box-sizing: border-box;
+    padding: 5% 0;
+    display: flex;
+    align-items: center;
+    margin-left: 6%;
+}
+
+.studyShow p {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+/* course content area */
+.content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    animation: contentShow 1s ease-in;
+}
+
+/* content display transition */
+@keyframes contentShow {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.content .course {
+    /* box including padding */
+    box-sizing: border-box;
+    width: 80%;
+    padding: 3% 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #9a5bb2;
+    margin-bottom: 5%;
+}
+
+.content .course img {
+    box-shadow: 2px 5px 10px rgb(97, 97, 97, 0.7);
+}
+
+.course .imgSection {
+    width: 400px;
+}
+
+.course .imgSection img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform .6s;
+}
+
+.course .imgSection img:hover {
+    transform: scale(1.05);
+}
+
+.content .courseDesc {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+
+.content .courseDesc .courseName {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content .courseDesc .courseDetail {
+    font-size: 1.1rem;
+    line-height: 1.5em;
+}
+
+footer {
+    box-sizing: border-box;
+    padding: 0 10px;
+    background-color: #2b1334;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footerNav{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .footerNav a {
+    box-sizing: border-box;
+    padding: 3px 0;
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 0 20px;
+
+}
+
+footer .uniLogo {
+    float: right;
+    width: 150px;
+
+}
+
+footer .uniLogo img {
+    /* img responsive */
+    max-width: 100%;
+}

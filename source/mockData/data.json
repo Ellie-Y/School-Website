@@ -1,0 +1,55 @@
+{
+    "studyPage": [
+        {
+            "imageUrl": "../source/images/studyPage/data-analysis.jpg",
+            "alt": "Data analysis course image",
+            "title": "Data Analysis",
+            "desc": "Data analysis is the process of extracting information from data. It involves multiple stages including establishing a data set, preparing the data for processing, applying models, identifying key findings and creating reports. The goal of data analysis is to find actionable insights that can inform decision making."
+        },
+        {
+            "imageUrl": "../source/images/studyPage/IT-management.jpg",
+            "alt": "IT management course image",
+            "title": "IT Management",
+            "desc": "The process of overseeing all matters related to information technology operations and resources within an IT organization. IT management ensures that all technology resources and associated employees are utilized properly and in a manner that provides value for the organization."
+        },
+        {
+            "imageUrl": "../source/images/studyPage/cloud-computing.png",
+            "alt": "Cloud security course image",
+            "title": "Cloud Security",
+            "desc": "Cloud computing security or, more simply, cloud security refers to a broad set of policies, technologies, applications, and controls utilized to protect virtualized IP, data, applications, services, and the associated infrastructure of cloud computing."
+        },
+        {
+            "imageUrl": "../source/images/studyPage/informatics.png",
+            "alt": "Informatics course image",
+            "title": "Informatics",
+            "desc": "Informatics is a branch of information engineering. It involves the practice of information processing and the engineering of information systems, and as an academic field it is an applied form of information science."
+        }
+
+    ],
+    "researchPage": [
+        {
+            "imageUrl": "../source/images/researchPage/kid.jpg",
+            "alt": "",
+            "title": "Children in care can recover from adversity with the right adoptive environment, research finds",
+            "desc": "‘Warm parenting’ can minimise negative impact of pre-adoption adversity"
+        },
+        {
+            "imageUrl": "../source/images/researchPage/brain.jpg",
+            "alt": "Research Project 1",
+            "title": "The beauty of your brain and how to see it",
+            "desc": "Your existence, your personality, everything you do, everything you think, everything you’ve done—it’s all there in that few litres of stuff."
+        },
+        {
+            "imageUrl": "../source/images/researchPage/decision-making.png",
+            "alt": "Research Project 2",
+            "title": "Improving end of life decision making",
+            "desc": "Our research stimulated debate about the treatment of people in vegetative and minimally conscious states."
+        },
+        {
+            "imageUrl": "../source/images/researchPage/shopping.jpg",
+            "alt": "Research Project 3",
+            "title": "Understanding consumer behaviour",
+            "desc": "We have developed important statistical and mathematical models for forecasting consumer buying behaviour."
+        }
+    ]
+}
