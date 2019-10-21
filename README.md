@@ -39,3 +39,12 @@
 
   Dribbble. "Once in a mall" dribbble.com. https://dribbble.com/shots/2766550-Once-in-a-mall (accessed Oct. 20, 2019)
 
+----
+PC review 
+---
+<img src = "https://github.com/Ellie-Y/Website-Cousework/blob/master/PC-sample.gif" width="400px" />
+
+Mobile review
+---
+<img src = "https://github.com/Ellie-Y/Website-Cousework/blob/master/Mobile-sample.gif" width="300px" />
+
