@@ -1,6 +1,7 @@
 // homepage js
 
 (function() {
+    
     $('.dropBtn').click(function() {
         $('#activeNav').css('display') == 'none' ? $('#activeNav').css({'display': 'flex'}) : $('#activeNav').css({'display': 'none'})
     });
