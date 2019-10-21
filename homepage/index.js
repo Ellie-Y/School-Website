@@ -1,21 +1,12 @@
 // homepage js
 
 (function() {
-    document.body.addEventListener('touchstart', function(){});
+    $('.dropBtn').click(function() {
+        $('#activeNav').css('display') == 'none' ? $('#activeNav').css({'display': 'flex'}) : $('#activeNav').css({'display': 'none'})
+    });
 
-    var oNav = document.getElementById('activeNav');
-    var oDropBtn = document.getElementsByClassName('dropBtn')[0];
-    var studyButton = document.getElementsByClassName('studyButton')[0];
-    
-    oDropBtn.onclick = function() {
-        if(oNav.style.display == 'none') {
-            oNav.style.display = 'flex';
-        }else {
-            oNav.style.display = 'none'
-        }
-    };
-
-    studyButton.onclick = function() {
+    $('.studyButton').click(function() {
         window.location.href='../studyPage/index.html';
-    }
+    });
+
 })()
