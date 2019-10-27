@@ -29,25 +29,25 @@
     "researchPage": [
         {
             "imageUrl": "../source/images/researchPage/kid.jpg",
-            "alt": "",
-            "title": "Children in care can recover from adversity with the right adoptive environment, research finds",
-            "desc": "‘Warm parenting’ can minimise negative impact of pre-adoption adversity"
+            "alt": "Research Project 1",
+            "title": "Children can recover from right adoptive environment",
+            "desc": "‘Warm parenting’ can minimise negative impact of pre-adoption adversity."
         },
         {
             "imageUrl": "../source/images/researchPage/brain.jpg",
-            "alt": "Research Project 1",
+            "alt": "Research Project 2",
             "title": "The beauty of your brain and how to see it",
             "desc": "Your existence, your personality, everything you do, everything you think, everything you’ve done—it’s all there in that few litres of stuff."
         },
         {
             "imageUrl": "../source/images/researchPage/decision-making.png",
-            "alt": "Research Project 2",
+            "alt": "Research Project 3",
             "title": "Improving end of life decision making",
             "desc": "Our research stimulated debate about the treatment of people in vegetative and minimally conscious states."
         },
         {
             "imageUrl": "../source/images/researchPage/shopping.jpg",
-            "alt": "Research Project 3",
+            "alt": "Research Project 4",
             "title": "Understanding consumer behaviour",
             "desc": "We have developed important statistical and mathematical models for forecasting consumer buying behaviour."
         }

@@ -2,7 +2,7 @@
 //get content data by Ajax, then use data to render page
 
 
-//要使用的方法暴露在自定义的属性上
+//Expose it in order to be used
 var root = window.uniPage;
 
 function getData(url) {
