@@ -87,7 +87,8 @@ footer, .wrapper::after {
     font-weight: bold;
 }
 
-/* course content area */
+/* content area */
+
 .content {
     width: 100%;
     display: flex;
@@ -101,54 +102,79 @@ footer, .wrapper::after {
     to { opacity: 1; }
 }
 
-.content .course {
-    /* box including padding */
+.content {
     box-sizing: border-box;
-    width: 80%;
-    padding: 3% 0;
-    margin: 0 auto;
+    padding: 0 10%;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.content .course {
+    display: grid;
+    box-sizing: border-box;
+    padding: 5% 10px;
+    grid-template-columns: auto 400px 10% 40% auto;
+    /* 行，竖 */
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: ". imgSection . . ."
+                         ". imgSection . title ."
+                         ". imgSection . courseDesc ."
+                         ". imgSection . . .";
+
     align-items: center;
-    justify-content: space-around;
     border-bottom: 1px solid #9a5bb2;
     margin-bottom: 5%;
 }
 
-.content .course img {
-    box-shadow: 2px 5px 10px rgb(97, 97, 97, 0.7);
+/* reverse the content */
+.content .course:nth-child(even) {
+    grid-template-columns: auto 40% 10% 400px auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: ". . . imgSection ."
+                         ". title . imgSection . "
+                         ". courseDesc . imgSection ."
+                         ". . . imgSection .";
 }
 
-.course .imgSection {
-    width: 400px;
+.imgSection {
+    grid-area: imgSection;
+    margin: 0 auto;
 }
 
 .course .imgSection img {
     display: block;
     width: 100%;
     height: 100%;
+    box-shadow: 2px 5px 10px rgb(97, 97, 97, 0.7);
     transition: transform .6s;
+    max-width: 100%;
 }
 
-.course .imgSection img:hover {
+.imgSection img:hover {
     transform: scale(1.05);
 }
 
-.content .courseDesc {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    width: 400px;
-}
-
-.content .courseDesc .courseName {
-    font-size: 1.4rem;
-    font-weight: bold;
+.title {
+    grid-area: title;
     margin-bottom: 10px;
 }
 
-.content .courseDesc .courseDetail {
+.title .courseName {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.courseDesc {
+    grid-area: courseDesc;
+}
+
+.courseDesc .courseDetail {
     font-size: 1.1rem;
     line-height: 1.5em;
 }

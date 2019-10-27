@@ -21,31 +21,18 @@
 .content .course:nth-child(even) {
     align-items: center;
     margin-top: 5%;
-    grid-template-columns: 100%;
+    grid-template-columns: auto 60% auto;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "title"
-                         "imgSection"
-                         "courseDesc";
-}
-
-.course .imgSection img {
-    width: 400px;
-}
-
-.course .imgSection {
-    box-sizing: border-box;
-    padding-bottom: 15px;
-}
-
-/* cancel the scale effect in mobile use */
-.course .imgSection img:hover {
-    transform: scale(1);
+    grid-template-areas: ". title . "
+                         ". imgSection ."
+                         ". courseDesc .";
+    grid-gap: 15px 0;
 }
 
 .title .courseName {
     text-align: right;
 }
 
-footer .footerNav {
-    flex-direction: column;
+.course .imgSection img:hover {
+    transform: scale(1);
 }
